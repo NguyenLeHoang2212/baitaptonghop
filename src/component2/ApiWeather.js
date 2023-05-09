@@ -68,8 +68,8 @@ export default function ApiWeather() {
                             src={`http://openweathermap.org/img/w/${data.weather[0].icon}.png`}
                         />
                     </div>
-                        <h1 className="datnuoc">   {data.sys.country}</h1>
-                        <h1 className="thoitiet">  {data.weather[0].description}</h1>
+                        <h1 className="Datnuoc">{data.sys.country}</h1>
+                        <h1 className="thoitiet">{data.weather[0].description}</h1>
                    </div>
                 )
             }
