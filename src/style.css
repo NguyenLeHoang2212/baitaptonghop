@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/bg.jpg);
+}
+
+.studentList{
+background: #fff3db;
+width: 800px;
+text-align: center;
+margin: 250px 650px;
+
+padding: 50px;
+font-size: 20px;
+
+}
+.studentList .student{
+    color: #028f76;
+    padding: 20px 20px;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+
+}
+.studentList .student .icon .delete{
+ margin-left: 20px;
+}
+.formAdd{
+    width: 100%;
+    padding: 10px 10px;
+    height: 100px;
+    
+}
+.formAdd input{
+    padding: 20px 200px;
+    background: #f3ffcf;
+    border: none;
+    color: #028f76;
+    font-size: large;
+    border: none;
+}
+
+.edit{
+    color: #028f76;
+    width: 100%;
+    padding: 20px 20px;
+   border: none;
+    display: flex;
+    justify-content: flex-start;
+    background: #fff3db;
+    border: 1px solid green;
+}
+.footer{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer button{
+border: none;
+padding: 20px;
+border-radius: 20%;
+background: #b8e994;
+color: #fa983a;
+font-size: large;
+cursor: pointer;
+}

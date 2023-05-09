@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/bg2.jpg);
+    background-size: cover;
+  
+}
+.container{
+    
+    padding: 20px ;
+  
+    
+    background: #9AECDB;
+    width: 800px;
+    display: flex;
+   margin: 50px auto;
+    justify-content: center;
+   
+   
+}
+h1{
+   color: #1B9CFC;
+}
+.contain{
+    width: 800px;
+    margin: 50px auto;
+    background: #9AECDB;
+    height: 70vh;
+    padding-top: 50px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+
+}
+.container input{
+    
+    padding: 20px;
+    width: 50%;
+    border: none;
+}
+.icon{
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    margin-left: 40px;
+    background: white;
+   padding: 15px;
+   border-radius: 50%;
+}
+.icon .search{
+    text-align: center;
+}
+
+.thanhpho{
+    
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.temp{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+   width: 150px;
+}
+.datnuoc{
+    margin: 20px 70px;
+}
+.thoitiet{
+    margin-top: 40px;
+    margin-left: 350px;
+}
